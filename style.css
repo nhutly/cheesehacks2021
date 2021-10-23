@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+head {
+    background-color: aqua;
+}
+
+.header {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-image: linear-gradient(#f2bb66, yellow);
+}
+
+nav img {
+    padding-left: 50px;
+    width: 100px;
+}
+
+.sub-header {
+    padding-top: 50px;
+    padding-bottom: 100%;
+    background-image: url("images/cheesebackground.jpeg");
+}
+
+.nav-links {
+    padding: 2px 0;
+    text-align: center;
+}
+
+.nav-links ul li {
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.text-box {
+    width: 100%;
+    padding-top: center;
+    text-align: center;
+}
+
+.text-box h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-box p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-box h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-box input[type=text] {
+    width: 20%;
+    height: 20%;
+}
+
+
+/*add page*/
