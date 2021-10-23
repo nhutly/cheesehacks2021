@@ -1,0 +1,54 @@
+.main-header {
+    background-color: rgb(113, 203, 233);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+.name-logo {
+    margin-left: 2rem;
+}
+.name-logo h3 a {
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-tab {
+    float: left;
+    margin-right: 2rem;
+}
+
+.nav-tab .nav-btns li {
+    float: left;
+    padding: 1rem;
+    margin: 0.75rem;
+    overflow: hidden;
+    font-style: bold;
+}
+
+.nav-tab .nav-btns li a {
+    text-decoration: none;
+    color: rgb(3, 2, 20);
+}
+
+.nav-tab .nav-btns li a:hover {
+    transition: 0.25s;
+    color: rgb(216, 229, 230);
+}
+
+
+#sign-up {
+    background-color: royalblue;
+    color:rgb(241, 246, 247);
+    font-weight: 900;
+    padding: 0.60rem;
+    border-radius: 45%;
+}
+
+#sign-up:hover {
+    transition: 0.25s;
+    background-color: seashell;
+    color: rgb(45, 57, 58);
+}
