@@ -32,12 +32,12 @@
             <h2>Enter TA's review</h2>
             <div class="contact-col">
                 <form action="form-handler.php" method="post">
-                    <input type="text" name="name" placeholder="Enter your TA" required>
-                    <br>
-                    <input type="text" name="subject" placeholder="Enter your TA class" required>
-                    <br>
-                    <textarea id="message" rows="10" name="message" placeholder="Enter your review" required></textarea>
-
+                    <label for="name">TA's Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your TA" required>
+                    <label for="subject">Section</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter your TA section" required>
+                    <label for="message">Comments</label>
+                    <textarea id="message" rows="10" name="message" placeholder="Enter your comment" required></textarea>
                     <button type="submit" class="hero-btn red-btn">Send Message</button>
                 </form>
             </div>
