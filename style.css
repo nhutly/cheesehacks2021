@@ -35,6 +35,14 @@ nav img {
     text-align: center;
     font-size: 18px;
     padding: 20px;
+    display: inline;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 15%;
+    background-image: url("images/cheesebackground.jpeg");
+    background-size: 50% 50%;
+    margin: 0.5rem;
 }
 
 .text-box {
@@ -61,6 +69,14 @@ nav img {
 .text-box input[type=text] {
     width: 20%;
     height: 20%;
+}
+
+.div input[type=text] {
+    padding-top: 100px;
+}
+
+.div label {
+    padding-top: 100px;
 }
 
 
