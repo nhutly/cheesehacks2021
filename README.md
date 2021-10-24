@@ -1,2 +1,3 @@
 # cheesehacks2021
-Designing a website for a fictional character for the Cheesehacks 2021
+A twist on the infamous RateMyProfessor, but for TAs!
+Users can leave reviews and view other students' feedback as well!
